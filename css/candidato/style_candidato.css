@@ -1,0 +1,140 @@
+html body {
+    margin: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #005702;
+}
+
+
+#especo_logo {
+    background-color: white;
+    /*color: #fdef12;*/
+    
+    /*text-shadow:2px 3px 8px #000;*/
+    /*margin-bottom: 0px;*/
+    height: 300px;
+    
+    /*background-image: url('./../../imagens/candidato/logo.png');*/
+    /*background-repeat: no-repeat;*/
+    /*background-position-x: 150px;*/
+    /*background-size: 220px;*/
+    border-bottom: 5px solid #fdef12;
+}
+
+.baner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texto_telao{
+    padding-top: 50px;
+}
+
+.texto_telao .nome_principal {
+
+    font-size: 70px;
+    font-weight: bold;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: -20px;
+    margin-bottom: -35px;
+    padding-bottom: 0px;
+    
+}
+
+.texto_telao .slogan{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+nav {
+    background-color: #3e4095;
+    color: #eeeeee;
+    height: 50px;
+    line-height: 3;
+    font-size: 16px;
+}
+
+nav a {
+    padding: 15px 5px 15px 5px;
+    color: #eeeeee;
+}
+nav a:hover{
+
+    color: #c0c0c0;
+}
+
+nav a:active{
+    color: #c0c0c0;
+}
+
+nav a:focus{
+    color: #eeeeee;
+}
+
+
+
+
+footer {
+    margin-top: 50px;
+    height: 250px;
+
+    background-color: #b0ccb0;
+
+}
+
+footer #rodape{
+    height: 200px;
+
+}
+
+footer #menu_rodape {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 25px 0px 25px 0px;
+}
+
+footer #menu_rodape a {
+    color: white;
+    font-weight: bold;
+    padding: 25px 0px 25px 0px;
+}
+
+footer #menu_rodape a:hover{
+    color: #eeeeee;
+}
+
+
+#rodape #sociais a{
+    padding: 10px;
+}
+
+#rodape #sociais a img{
+
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;
+    border: 2px solid white; 
+}
+
+#rodape #sociais a:hover img{
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid white; 
+}
+
+footer #dev{
+    height: 50px;
+    background-color: #90c090;
+    padding: 15px 5px 15px 5px;
+    font-weight: bold;
+}
+
+footer #dev a {
+    color: #353; 
+
+}
+
+footer #dev a:hover{
+    text-decoration: underline;
+}
